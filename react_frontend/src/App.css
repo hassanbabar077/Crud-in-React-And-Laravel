@@ -1,0 +1,279 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* src/MainContent.css */
+
+/* src/NavBar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-left {
+  font-size: 1.5rem;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-link {
+  margin-right: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-login {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar-login:hover {
+  background-color: #0056b3;
+}
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+main {
+  padding: 0px;
+}
+/* src/NavBar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-left {
+  font-size: 1.5rem;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-link {
+  margin-right: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-login {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar-login:hover {
+  background-color: #0056b3;
+}
+
+
+.Addform {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.frm1 {
+  margin-bottom: 15px;
+}
+
+
+.form1Input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.btnadd {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btnadd:hover {
+  background-color: #218838;
+}
+.listheading{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.listview {
+  text-align: center;
+  padding: 20px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+.listbtn{
+  padding-top: 20px;
+  align-items: center;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+/* src/ColumnComponent.css */
+.main-content {
+  padding: 0px;
+}
+
+.content {
+  background-image: url(Assets/imgs/3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin-bottom: 2rem;
+  height: 100vh;
+}
+.contentheading{
+
+  margin: 0px 0px;
+  padding-top: 10rem;
+}
+
+.products {
+  text-align: center;
+  
+}
+
+.product-slider {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding: 1rem;
+  scroll-behavior: smooth;
+}
+
+.slider-item {
+  flex: 0 0 auto;
+  width: 33%;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+.column-container {
+  text-align: left;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.column-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.column-heading {
+  font-size: 24px;
+  margin: 16px 0 8px;
+}
+
+.column-subheading {
+  font-size: 18px;
+  color: #666;
+}
+
+.column-paragraph {
+  font-size: 16px;
+  color: #333;
+}
+
+.btnDelete{
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btnUpdate{
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
